@@ -28,7 +28,6 @@
 		16E3E55413C818B900A35C80 /* ___FILEBASENAME___.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E3E55113C818B900A35C80 /* ___FILEBASENAME___.m */; };
 		16E3E55513C818B900A35C80 /* TemplateIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 16E3E55213C818B900A35C80 /* TemplateIcon.icns */; };
 		16E3E55613C818B900A35C80 /* TemplateInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16E3E55313C818B900A35C80 /* TemplateInfo.plist */; };
-		16E3E55813C8195500A35C80 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E3E55713C8195500A35C80 /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,7 +61,6 @@
 		16E3E55113C818B900A35C80 /* ___FILEBASENAME___.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "___FILEBASENAME___.m"; sourceTree = "<group>"; };
 		16E3E55213C818B900A35C80 /* TemplateIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TemplateIcon.icns; sourceTree = "<group>"; };
 		16E3E55313C818B900A35C80 /* TemplateInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
-		16E3E55713C8195500A35C80 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Test.m; path = ../../../../../Desktop/Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,7 +206,6 @@
 				16E3E55113C818B900A35C80 /* ___FILEBASENAME___.m */,
 				16E3E55213C818B900A35C80 /* TemplateIcon.icns */,
 				16E3E55313C818B900A35C80 /* TemplateInfo.plist */,
-				16E3E55713C8195500A35C80 /* Test.m */,
 			);
 			name = XWPGTMTestCase.xctemplate;
 			path = ../XWPGTMTestCase.xctemplate;
@@ -289,7 +286,6 @@
 				16E3E53F13C8131400A35C80 /* ___FILEBASENAME___.m in Sources */,
 				16E3E54113C8131400A35C80 /* ___FILEBASENAME___.m in Sources */,
 				16E3E55413C818B900A35C80 /* ___FILEBASENAME___.m in Sources */,
-				16E3E55813C8195500A35C80 /* Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +371,7 @@
 				16E3E51513C812F000A35C80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

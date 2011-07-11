@@ -11,16 +11,10 @@
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
-/*
- See Xcode4Templates README
- */
 - (void)initReloadable {
   
 }
 
-/*
- See Xcode4Templates README
- */
 - (void)deallocReloadable {
   
 }

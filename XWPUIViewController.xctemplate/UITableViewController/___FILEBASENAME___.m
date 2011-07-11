@@ -11,7 +11,16 @@
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
+- (void)initReloadable {
+  
+}
+
+- (void)deallocReloadable {
+  
+}
+
 - (void)dealloc {
+  [self deallocReloadable];
   
   [super dealloc];
 }
@@ -21,11 +30,13 @@
 - (void)viewDidLoad {
   [super viewDidLoad];
   
+  [self initReloadable];
 }
 
 - (void)viewDidUnload {
   [super viewDidUnload];
   
+  [self deallocReloadable];
 }
 
 #pragma mark - Table view data source

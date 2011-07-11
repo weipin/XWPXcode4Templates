@@ -1,5 +1,16 @@
 Personal Xcode 4 templates
 
+
+Mac OS
+/Developer/Library/Xcode/Templates/
+
+iOS
+/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/
+
+User's
+~/Library/Developer/Xcode/Templates/
+
+
 UIViewController
 ================
 
