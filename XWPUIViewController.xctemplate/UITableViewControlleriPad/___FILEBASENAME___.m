@@ -33,8 +33,16 @@
   [self initReloadable];
 }
 
-- (void)viewDidUnload {
-  [super viewDidUnload];
+- (void)didReceiveMemoryWarning {
+  [super didReceiveMemoryWarning];
+
+  if (![self isViewLoaded]) {
+    return;
+  }
+
+  if (self.view.window) {
+    return;
+  }
   
   [self deallocReloadable];
 }
