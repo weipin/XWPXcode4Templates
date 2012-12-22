@@ -11,18 +11,32 @@
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
-- (void)initReloadable {
+- (void)saveDataFromViewToModel {
   
 }
 
-- (void)deallocReloadable {
+- (void)loadDataFromModelToView {
   
+}
+
+- (void)updateTabBarItem {
+
+}
+
+- (void)initReloadable {
+  // 
+  
+  [self loadDataFromModelToView];
+}
+
+- (void)deallocReloadable {
+  [self saveDataFromViewToModel];
+  
+  //  
 }
 
 - (void)dealloc {
   [self deallocReloadable];
-  
-  [super dealloc];
 }
 
 #pragma mark - View lifecycle
